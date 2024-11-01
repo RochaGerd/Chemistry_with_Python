@@ -1,0 +1,9 @@
+2
+residue_46_B.xyz
+water_residue_46_B.xyz
+LIGAND 2 2.
+ONAME B
+RANGE 3
+-0.1 -0.02
+-0.02 0.02
+0.02 0.1

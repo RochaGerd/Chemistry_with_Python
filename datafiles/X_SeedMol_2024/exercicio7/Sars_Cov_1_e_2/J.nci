@@ -1,0 +1,9 @@
+2
+residue_44_J.xyz
+water_residue_44_J.xyz
+LIGAND 2 2.
+ONAME J
+RANGE 3
+-0.1 -0.02
+-0.02 0.02
+0.02 0.1
