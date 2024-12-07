@@ -1,0 +1,10 @@
+mopac 1CTF_01.mop
+mopac 1CTF_02.mop
+mopac 1CTF_03.mop
+mopac 1CTF_04.mop
+mopac 1CTF_05.mop
+mopac 1CTF_06.mop
+mopac 1CTF_07.mop
+mopac 1CTF_08.mop
+mopac 1CTF_09.mop
+mopac 1CTF_10.mop
