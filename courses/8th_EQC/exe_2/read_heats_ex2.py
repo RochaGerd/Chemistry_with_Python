@@ -13,7 +13,7 @@ def extract_heat_of_formation(file_path):
 
 # Diretório contendo os arquivos out 
 # Esse dado precisa ser editado
-directory = "/home/rochagb/my_files/Minicurso/exercicio2"
+directory = "/home/rochagb/my_files/8a_EQC/exe_2"
 
 # Lista para armazenar os dados
 data = []
@@ -27,7 +27,7 @@ for filename in os.listdir(directory):
             data.append([filename, value])
 
 # Escrever os dados em um arquivo CSV
-csv_file = "heat_of_formation.csv"
+csv_file = "heat_of_formation_exe_2.csv"
 with open(csv_file, 'w', newline='') as csvfile:
     csvwriter = csv.writer(csvfile)
     csvwriter.writerow(["Filename", "Heat of Formation (KCAL/MOL)"])
