@@ -7,13 +7,13 @@ def extract_heat_of_formation(file_path):
         for line in file:
             if "FINAL HEAT OF FORMATION" in line:
                 # Extrair o valor depois do "="
-                value = line.split('=')[1].strip().split()[0]
+                value = line.split('=')[1].strip().split()[-5]
                 return value
     return None
 
 # Diretório contendo os arquivos out 
 # Esse dado precisa ser editado
-directory = "/home/rochagb/my_files/Minicurso/exercicio3/1ctf"
+directory = "/home/rochagb/my_files/8th_EQC/exe_3/1ctf"
 
 # Lista para armazenar os dados
 data = []
